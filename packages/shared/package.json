@@ -1,0 +1,16 @@
+{
+	"name": "shared",
+	"author": "Baatchia Riyadh",
+	"license": "MIT",
+	"version": "1.0.0",
+	"main": "src/index.ts",
+	"scripts": {
+		"lint": "eslint \"src/**/*.ts*\""
+	},
+	"dependencies": {
+		"eslint-config-custom-server": "workspace:*"
+	},
+	"publishConfig": {
+		"access": "public"
+	}
+}

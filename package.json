@@ -1,0 +1,27 @@
+{
+	"name": "messaging-app",
+	"private": true,
+	"scripts": {
+		"build": "turbo run build",
+		"start": "pnpm --filter api start",
+		"clean": "turbo run clean",
+		"dev": "turbo run dev",
+		"debug": "turbo run debug",
+		"lint": "turbo run lint ",
+		"format": "prettier --write --ignore-unknown --cache --cache-location=.prettier-cache .",
+		"spell-check": "cspell --show-suggestions --relative --no-must-find-files --cache ."
+	},
+	"devDependencies": {
+		"cspell": "^8.8.4",
+		"husky": "^9.0.11",
+		"lint-staged": "^15.2.7",
+		"prettier": "^3.3.2",
+		"turbo": "^2.0.4"
+	},
+	"lint-staged": {
+		"*": [
+			"prettier --write --ignore-unknown --cache --cache-location=.prettier-cache"
+		]
+	},
+	"packageManager": "pnpm@9.3.0"
+}

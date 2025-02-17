@@ -1,0 +1,12 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Vite.js: attach client-side",
+			"port": 9222,
+			"request": "attach",
+			"type": "msedge",
+			"webRoot": "${workspaceFolder}/apps/web"
+		}
+	]
+}

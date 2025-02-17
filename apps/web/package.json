@@ -1,0 +1,40 @@
+{
+	"name": "web",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"build": "vite build",
+		"clean": "rm -rf .turbo && rm -rf node_modules && rm -rf dist",
+		"dev": "vite --host 0.0.0.0 --port 3001",
+		"debug": "vite --host 0.0.0.0 --port 3001",
+		"lint": "tsc --noEmit && eslint \"src/**/*.ts*\""
+	},
+	"dependencies": {
+		"@emotion/react": "^11.11.4",
+		"@emotion/styled": "^11.11.5",
+		"@hookform/resolvers": "^3.6.0",
+		"@mui/icons-material": "^5.15.20",
+		"@mui/material": "^5.15.20",
+		"axios": "^1.7.2",
+		"lodash": "^4.17.21",
+		"react": "^18.3.1",
+		"react-dom": "^18.3.1",
+		"react-hook-form": "^7.51.5",
+		"react-query": "^3.39.3",
+		"recoil": "^0.7.7",
+		"yup": "^1.4.0"
+	},
+	"devDependencies": {
+		"@types/lodash": "^4.17.5",
+		"@types/react": "^18.3.3",
+		"@types/react-dom": "^18.3.0",
+		"@vitejs/plugin-react-swc": "^3.7.0",
+		"eslint": "^8.57.0",
+		"eslint-config-custom": "workspace:*",
+		"shared": "workspace:*",
+		"tsconfig": "workspace:*",
+		"typescript": "^5.4.5",
+		"vite": "^5.3.1"
+	}
+}
