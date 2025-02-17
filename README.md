@@ -2,10 +2,6 @@
 
 Messaging app is an instant messaging fullstack web app using web sockets
 
-<p align="center">
-    <img src="https://riyadh-dev.github.io/portfolio-website-react/images/messaging-app/4.png" width="90%"/>
-<p>
-
 **Live preview:**
 
 - https://messaging-app-2b7q.onrender.com/
