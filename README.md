@@ -8,8 +8,7 @@ Messaging app is an instant messaging fullstack web app using web sockets
 
 **Live preview:**
 
--   [Railway](https://messaging-app.up.railway.app)
--   [Render](https://messaging-app-2b7q.onrender.com)
+- https://messaging-app-2b7q.onrender.com/
 
 ## Installation
 
